@@ -1,2 +1,4 @@
-package br.com.alura.adopet.api.dto;public record AprovacaoAdocaoDto() {
+package br.com.alura.adopet.api.dto;
+
+public record AprovacaoAdocaoDto(Long idAdocao) {
 }
