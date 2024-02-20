@@ -19,10 +19,10 @@ public class Adocao {
 
     private LocalDateTime data;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)//para não carregar o relacionamento junto quando Adocao for chamada no banco
     private Tutor tutor;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     private Pet pet;
 
     private String motivo;
