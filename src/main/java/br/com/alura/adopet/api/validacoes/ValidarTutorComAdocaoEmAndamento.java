@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class ValidarTutorComAdocaoEmAndamento {
+public class ValidarTutorComAdocaoEmAndamento implements ValidarSolicitacaoAdocao{
     @Autowired
     private AdocaoRepository adocaoRepository;
 

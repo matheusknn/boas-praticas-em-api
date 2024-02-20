@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class ValidarSeTutorExcedeuOLimiteDeAdocoes {
+public class ValidarSeTutorExcedeuOLimiteDeAdocoes implements ValidarSolicitacaoAdocao{
     @Autowired
     private AdocaoRepository adocaoRepository;
 
